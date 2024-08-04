@@ -1,0 +1,17 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/generated/gui_generated/src/loading_screen/LoadingViewBase.cpp:25:1:LoadingViewBase::~LoadingViewBase()	0	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/generated/gui_generated/src/loading_screen/LoadingViewBase.cpp:30:6:virtual void LoadingViewBase::setupScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<LoadingViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = LoadingViewBase; T1 = const touchgfx::AbstractButton&]	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = LoadingViewBase; T1 = const touchgfx::AbstractButton&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<LoadingViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/generated/gui_generated/src/loading_screen/LoadingViewBase.cpp:25:1:virtual LoadingViewBase::~LoadingViewBase()	8	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/generated/gui_generated/src/loading_screen/LoadingViewBase.cpp:35:6:void LoadingViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/generated/gui_generated/src/loading_screen/LoadingViewBase.cpp:8:1:LoadingViewBase::LoadingViewBase()	32	static

@@ -1,0 +1,10 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+TachometerView.cpp:42:6:virtual void TachometerView::tearDownScreen()	0	static
+TachometerView.hpp:11:13:TachometerView::~TachometerView()	8	static
+TachometerView.hpp:11:13:virtual TachometerView::~TachometerView()	8	static
+TachometerView.cpp:18:1:TachometerView::TachometerView()	8	static
+MoveAnimator.hpp:177:10:void touchgfx::MoveAnimator<T>::nextMoveAnimationStep() [with T = touchgfx::Image]	24	static
+MoveAnimator.hpp:131:10:void touchgfx::MoveAnimator<T>::startMoveAnimation(int16_t, int16_t, uint16_t, touchgfx::EasingEquation, touchgfx::EasingEquation) [with T = touchgfx::Image]	24	static
+TachometerView.cpp:23:6:virtual void TachometerView::setupScreen()	16	static
+TachometerView.cpp:47:6:virtual void TachometerView::handleTickEvent()	40	static

@@ -1,0 +1,596 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Loading",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "SolarMobilLogo",
+            "X": 27,
+            "Y": 72,
+            "Width": 422,
+            "Height": 74,
+            "RelativeFilename": "SolarMobilLogo.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "StartButton",
+            "X": 219,
+            "Y": 168,
+            "Width": 38,
+            "Height": 38,
+            "Pressed": "Button Pressed.png",
+            "Released": "Button Standby.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "LoadTachometer",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "StartButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Tachometer"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Tachometer",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ImageProgress",
+            "Name": "RpmProgress",
+            "X": 1,
+            "Y": 31,
+            "Width": 476,
+            "Height": 124,
+            "FileNameProgress": "Tachometer Progress.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "FileNameBackground": "Tachometer Background.png",
+            "IndicatorPositionY": 13,
+            "IndicatorPositionWidth": 476,
+            "IndicatorPositionHeight": 109,
+            "ProgressRangeMax": 800,
+            "ProgressInitialValue": 623
+          },
+          {
+            "Type": "Image",
+            "Name": "RpmBar",
+            "X": 349,
+            "Y": 33,
+            "Width": 23,
+            "Height": 40,
+            "RelativeFilename": "RPM Moving Bar.png",
+            "Moveable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "RpmVal",
+            "X": 416,
+            "Y": 47,
+            "Width": 60,
+            "Height": 20,
+            "TextId": "RpmVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "RpmValue",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "ImageProgress",
+            "Name": "SocProgress",
+            "X": 1,
+            "Y": 219,
+            "Width": 476,
+            "Height": 47,
+            "FileNameProgress": "SoC Progress.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "FileNameBackground": "SoCbackground.png",
+            "IndicatorPositionX": 6,
+            "IndicatorPositionY": 4,
+            "IndicatorPositionWidth": 449,
+            "IndicatorPositionHeight": 41,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 76
+          },
+          {
+            "Type": "Image",
+            "Name": "SocBar",
+            "X": 327,
+            "Y": 219,
+            "Width": 22,
+            "Height": 51,
+            "RelativeFilename": "Moving Bar.png",
+            "Moveable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SocVal",
+            "X": 446,
+            "Y": 200,
+            "Width": 30,
+            "Height": 20,
+            "TextId": "SocVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "SocValue",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DistanceVal",
+            "X": 2,
+            "Y": 199,
+            "Width": 78,
+            "Height": 20,
+            "TextId": "DistanceVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "DistanceValue",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Pack2Volt",
+            "X": 425,
+            "Y": 167,
+            "Width": 50,
+            "Height": 20,
+            "TextId": "Pack2Volt",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "Pack2Voltage",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Pack2Temp",
+            "X": 419,
+            "Y": 144,
+            "Width": 57,
+            "Height": 20,
+            "TextId": "Pack2TempID",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "Pack2TempVal",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "Pack2Icon",
+            "X": 395,
+            "Y": 158,
+            "Width": 13,
+            "Height": 19,
+            "LockPosition": true,
+            "RelativeFilename": "Battery Pack 1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Pack2",
+            "X": 398,
+            "Y": 162,
+            "Width": 8,
+            "Height": 12,
+            "LockPosition": true,
+            "TextId": "__SingleUse_I1WL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Pack1Volt",
+            "X": 425,
+            "Y": 112,
+            "Width": 51,
+            "Height": 20,
+            "TextId": "Pack1Volt",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "Pack1Voltage",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Pack1Temp",
+            "X": 419,
+            "Y": 89,
+            "Width": 56,
+            "Height": 20,
+            "TextId": "Pack1Temp",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "Pack1Temperature",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "Pack1Icon",
+            "X": 395,
+            "Y": 103,
+            "Width": 13,
+            "Height": 19,
+            "LockPosition": true,
+            "RelativeFilename": "Battery Pack 1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Pack1",
+            "X": 399,
+            "Y": 107,
+            "Width": 7,
+            "Height": 12,
+            "LockPosition": true,
+            "TextId": "__SingleUse_WCPR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "DigitalClockBackground",
+            "X": 192,
+            "Width": 96,
+            "Height": 22,
+            "LockPosition": true,
+            "RelativeFilename": "Frame.png"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "DigitalClock",
+            "X": 205,
+            "Y": 7,
+            "Width": 72,
+            "Height": 15,
+            "TextColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextId": "__SingleUse_B6DP",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "UseAmPm": true,
+            "InitialHour": 8,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "Image",
+            "Name": "TargetBackground",
+            "X": 2,
+            "Y": 161,
+            "Width": 89,
+            "Height": 29,
+            "LockPosition": true,
+            "RelativeFilename": "Target Background.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TargetSpeed",
+            "X": 2,
+            "Y": 177,
+            "Width": 47,
+            "Height": 12,
+            "TextId": "TargetSpeed",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "TargetSpeedVal",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TargetSoC",
+            "X": 55,
+            "Y": 177,
+            "Width": 23,
+            "Height": 12,
+            "TextId": "TargetSoC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "TargetSoCVal",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "MotorBackground",
+            "X": 1,
+            "Y": 7,
+            "Width": 89,
+            "Height": 32,
+            "LockPosition": true,
+            "RelativeFilename": "Current Placeholder.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MotorVal",
+            "X": 38,
+            "Y": 10,
+            "Width": 29,
+            "Height": 20,
+            "TextId": "MotorVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "MotorValue",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "ImageProgress",
+            "Name": "MotorProgress",
+            "X": 5,
+            "Y": 32,
+            "Width": 86,
+            "Height": 2,
+            "FileNameProgress": "Current Progress.png",
+            "AnchorAtZero": true,
+            "Direction": "Right",
+            "FileNameBackground": "Current Background.png",
+            "IndicatorPositionWidth": 86,
+            "IndicatorPositionHeight": 2,
+            "ProgressRangeMax": 42,
+            "ProgressInitialValue": 25
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedVal",
+            "X": 141,
+            "Y": 78,
+            "Width": 197,
+            "Height": 101,
+            "TextId": "SpeedVal",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "SpeedValue",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MPH",
+            "X": 215,
+            "Y": 84,
+            "Width": 49,
+            "Height": 20,
+            "TextId": "__SingleUse_MWJB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 75,
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "PackDivider",
+            "X": 316,
+            "Y": 139,
+            "Width": 104,
+            "Height": 3,
+            "LockPosition": true,
+            "RelativeFilename": "Battery Barrier.png"
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "OvertakingBackground",
+            "X": 410,
+            "Y": 11,
+            "Width": 65,
+            "Height": 19,
+            "BorderColor": {
+              "Red": 255
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Overtaking",
+            "X": 413,
+            "Y": 14,
+            "Width": 59,
+            "Height": 12,
+            "TextId": "Overtaking",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "TelemetryBackground",
+            "X": 64,
+            "Y": 97,
+            "Width": 78,
+            "Height": 78,
+            "Color": {
+              "Red": 21,
+              "Green": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "LineWidth": 2.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Image",
+            "Name": "TelemetryIcon",
+            "X": 85,
+            "Y": 119,
+            "Width": 38,
+            "Height": 38,
+            "RelativeFilename": "TelemetryBackground.png"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Display",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Loading",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.2",
+  "CreatedBy": "4.23.2"
+}

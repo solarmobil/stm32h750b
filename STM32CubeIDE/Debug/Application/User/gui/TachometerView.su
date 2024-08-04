@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/tachometer_screen/TachometerView.cpp:42:6:virtual void TachometerView::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/tachometer_screen/TachometerView.hpp:11:13:TachometerView::~TachometerView()	8	static
+../../TouchGFX/gui/include/gui/tachometer_screen/TachometerView.hpp:11:13:virtual TachometerView::~TachometerView()	8	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/tachometer_screen/TachometerView.cpp:18:1:TachometerView::TachometerView()	8	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/tachometer_screen/TachometerView.cpp:23:6:virtual void TachometerView::setupScreen()	16	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/tachometer_screen/TachometerView.cpp:47:6:virtual void TachometerView::handleTickEvent()	48	static

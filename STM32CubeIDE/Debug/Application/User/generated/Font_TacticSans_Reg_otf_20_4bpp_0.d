@@ -1,0 +1,6 @@
+Application/User/generated/Font_TacticSans_Reg_otf_20_4bpp_0.o: \
+ D:/OneDrive/embedded/Projects/Display/TouchGFX/generated/fonts/src/Font_TacticSans_Reg_otf_20_4bpp_0.cpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp:

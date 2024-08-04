@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/tachometer_screen/TachometerPresenter.hpp:28:13:TachometerPresenter::~TachometerPresenter()	0	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/tachometer_screen/TachometerPresenter.cpp:10:6:virtual void TachometerPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/tachometer_screen/TachometerPresenter.hpp:28:13:virtual TachometerPresenter::~TachometerPresenter()	8	static
+../../TouchGFX/gui/include/gui/tachometer_screen/TachometerPresenter.hpp:28:13:virtual void* TachometerPresenter::_ZThn4_N19TachometerPresenterD1Ev()	0	static
+../../TouchGFX/gui/include/gui/tachometer_screen/TachometerPresenter.hpp:28:13:virtual void* TachometerPresenter::_ZThn4_N19TachometerPresenterD0Ev()	8	static
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/tachometer_screen/TachometerPresenter.cpp:4:1:TachometerPresenter::TachometerPresenter(TachometerView&)	4	static

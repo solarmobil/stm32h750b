@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Flags" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_MWJB" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">MPH</Translation>
+      </Text>
+      <Text Id="SpeedValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">69</Translation>
+      </Text>
+      <Text Id="SpeedVal" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="MotorValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="MotorVal" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="TargetSoCVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="TargetSoC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="TargetSpeedVal" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">62</Translation>
+      </Text>
+      <Text Id="TargetSpeed" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;kmph</Translation>
+      </Text>
+      <Text Id="__SingleUse_B6DP" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_WCPR" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="Pack1Temperature" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">97</Translation>
+      </Text>
+      <Text Id="Pack1Temp" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; °F</Translation>
+      </Text>
+      <Text Id="Pack1Voltage" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">36</Translation>
+      </Text>
+      <Text Id="Pack1Volt" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; V</Translation>
+      </Text>
+      <Text Id="__SingleUse_I1WL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="Pack2TempVal" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">88</Translation>
+      </Text>
+      <Text Id="Pack2TempID" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; °F</Translation>
+      </Text>
+      <Text Id="Pack2Temperature" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">88</Translation>
+      </Text>
+      <Text Id="Pack2Temp" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; °F</Translation>
+      </Text>
+      <Text Id="Pack2Voltage" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="Pack2Volt" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt; V</Translation>
+      </Text>
+      <Text Id="DistanceValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">320</Translation>
+      </Text>
+      <Text Id="DistanceVal" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;km</Translation>
+      </Text>
+      <Text Id="SocValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="SocVal" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="RpmValue" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">6230</Translation>
+      </Text>
+      <Text Id="RpmVal" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="Overtaking" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Overtaking</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="TacticSans-Reg.otf" Size="20" Bpp="4" IsVector="no" Direction="LTR" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Large" Font="TacticSansExtExd-Bld.otf" Size="96" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Small" Font="TacticSans-Reg.otf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" WildcardCharacterRanges="0x20-0x7E" />
+  </Typographies>
+</TextDatabase>

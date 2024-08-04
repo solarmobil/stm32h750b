@@ -1,0 +1,5 @@
+TachometerPresenter.hpp:28:13:TachometerPresenter::~TachometerPresenter()	0	static
+TachometerPresenter.cpp:10:6:virtual void TachometerPresenter::activate()	0	static
+TachometerPresenter.hpp:28:13:virtual TachometerPresenter::~TachometerPresenter()	8	static
+TachometerPresenter.hpp:28:13:virtual void* TachometerPresenter::_ZThn4_N19TachometerPresenterD1Ev()	0	static
+TachometerPresenter.cpp:4:1:TachometerPresenter::TachometerPresenter(TachometerView&)	8	static

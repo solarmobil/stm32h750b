@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/loading_screen/LoadingPresenter.hpp:28:13:LoadingPresenter::~LoadingPresenter()	1
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/loading_screen/LoadingPresenter.cpp:10:6:virtual void LoadingPresenter::activate()	1
+../../TouchGFX/gui/include/gui/loading_screen/LoadingPresenter.hpp:28:13:virtual LoadingPresenter::~LoadingPresenter()	1
+../../TouchGFX/gui/include/gui/loading_screen/LoadingPresenter.hpp:28:13:virtual void* LoadingPresenter::_ZThn4_N16LoadingPresenterD1Ev()	1
+../../TouchGFX/gui/include/gui/loading_screen/LoadingPresenter.hpp:28:13:virtual void* LoadingPresenter::_ZThn4_N16LoadingPresenterD0Ev()	1
+D:/OneDrive/embedded/Projects/Display/TouchGFX/gui/src/loading_screen/LoadingPresenter.cpp:4:1:LoadingPresenter::LoadingPresenter(LoadingView&)	1

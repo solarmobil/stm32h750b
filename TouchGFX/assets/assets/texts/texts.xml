@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_7BWB" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">103</Translation>
+      </Text>
+      <Text Id="__SingleUse_VN04" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">248</Translation>
+      </Text>
+      <Text Id="__SingleUse_3X10" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">103</Translation>
+      </Text>
+      <Text Id="__SingleUse_55SO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">248</Translation>
+      </Text>
+      <Text Id="__SingleUse_XZ2Q" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">103</Translation>
+      </Text>
+      <Text Id="__SingleUse_3I1A" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">248</Translation>
+      </Text>
+      <Text Id="__SingleUse_OH0S" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">103</Translation>
+      </Text>
+      <Text Id="__SingleUse_I7VK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">248</Translation>
+      </Text>
+      <Text Id="__SingleUse_J4FQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">758</Translation>
+      </Text>
+      <Text Id="__SingleUse_RPWX" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z7IO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="__SingleUse_F0LZ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">62</Translation>
+      </Text>
+      <Text Id="__SingleUse_YUUI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="__SingleUse_PHOD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">88</Translation>
+      </Text>
+      <Text Id="__SingleUse_UZLT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">36</Translation>
+      </Text>
+      <Text Id="__SingleUse_KUHW" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">97</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y41U" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">69</Translation>
+      </Text>
+      <Text Id="__SingleUse_3YCT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">6230</Translation>
+      </Text>
+      <Text Id="__SingleUse_L7KF" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="__SingleUse_X4Z9" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">320</Translation>
+      </Text>
+      <Text Id="__SingleUse_W420" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="__SingleUse_E5FT" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;bar</Translation>
+      </Text>
+      <Text Id="__SingleUse_ROUA" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;°F</Translation>
+      </Text>
+      <Text Id="__SingleUse_PHEC" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;bar</Translation>
+      </Text>
+      <Text Id="__SingleUse_1QO8" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;°F</Translation>
+      </Text>
+      <Text Id="__SingleUse_RDM4" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;bar</Translation>
+      </Text>
+      <Text Id="__SingleUse_UUPC" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;°F</Translation>
+      </Text>
+      <Text Id="__SingleUse_E4AK" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;°F</Translation>
+      </Text>
+      <Text Id="__SingleUse_ENEY" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;bar</Translation>
+      </Text>
+      <Text Id="__SingleUse_YZA8" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;bar</Translation>
+      </Text>
+      <Text Id="__SingleUse_4Y5M" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_DXZM" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NWF7" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Overtaking</Translation>
+      </Text>
+      <Text Id="__SingleUse_WSLC" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">V</Translation>
+      </Text>
+      <Text Id="__SingleUse_MRW8" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">°F</Translation>
+      </Text>
+      <Text Id="__SingleUse_5H0W" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">V</Translation>
+      </Text>
+      <Text Id="__SingleUse_N1SM" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">°F</Translation>
+      </Text>
+      <Text Id="__SingleUse_JCGM" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_E6J9" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="__SingleUse_HOP3" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_B20G" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZD4I" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_VMHP" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_7DCF" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6MB2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">MPH</Translation>
+      </Text>
+      <Text Id="__SingleUse_KWRI" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_FYAP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_G6FC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZPID" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;kmph</Translation>
+      </Text>
+      <Text Id="__SingleUse_124T" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_B06B" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;km</Translation>
+      </Text>
+      <Text Id="__SingleUse_IF5H" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="TacticSans-Reg.otf" Size="20" Bpp="4" IsVector="no" Direction="LTR" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Large" Font="TacticSansExtExd-Bld.otf" Size="96" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Small" Font="TacticSans-Reg.otf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" WildcardCharacterRanges="0x20-0x7E" />
+  </Typographies>
+</TextDatabase>
