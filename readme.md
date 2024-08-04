@@ -1,2 +1,2 @@
-# stm32h750b
-Codebase of the STM32H7 onboard Heliark
+# stm32h750b-dk
+Firmware for the STM32H7 onboard Heliark
